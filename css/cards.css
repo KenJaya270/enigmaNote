@@ -1,0 +1,46 @@
+.card-title-container{
+    padding: 1.25rem 1.25rem;
+    background-color: #E2DCC8;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-title-wrapper h6{
+    color: #0F3D3E;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card-title-wrapper i{
+    color: #0F3D3E;
+}
+
+.addNote-container .addNote-wrapper i{
+    background-color: #100F0F;
+    color: white;
+    font-size: 40px;
+    border-radius: 100%;
+    padding: 15px 15px;
+    position: fixed;
+    right: 10px;
+    top: 520px;
+    margin: 0 12px 12px 0;
+    transition: 0.3s;
+}
+
+.addNote-container .addNote-wrapper i:hover{
+    transition: 0.3s;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.card-container{
+    display: flex;
+}
+
+.cards{
+    margin: 10px;
+}
+
+.action-to-note{
+    background-color: #F1F1F1;
+}
