@@ -1,0 +1,36 @@
+:root {
+    --primary: #E2DCC8;
+    --secondary: #F1F1F1;
+    --button: #0F3D3E;
+    --font: #100F0F;
+}
+
+.bg-gradient-primary {
+    background-color: var(--primary);
+    background-image: none;
+}
+
+/* Login */
+.bg-login-image {
+    background: url(../img/login-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Register */
+.bg-regis-image {
+    background: url(../img/regis-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-primary {
+    background-color: var(--button);
+    border-color: var(--button);
+}
+
+.btn-primary:hover {
+    background-color: #125758;
+    border-color: #125758;
+}
+
