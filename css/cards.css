@@ -40,7 +40,15 @@
 
 .card-container{
     display: flex;
-    flex-wrap: wrap;
+}
+
+.cards{
+    padding: 10px;
+    max-width: 50%;
+}
+
+.action-to-note{
+    background-color: #F1F1F1;
 }
 
 .cards{
