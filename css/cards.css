@@ -12,6 +12,10 @@
 
 .card-title-wrapper i{
     color: #0F3D3E;
+<<<<<<< HEAD
+=======
+    /* font-size: 20px; */
+>>>>>>> 395ee11169364dbc1ede9757a473ff0606ced8e0
 }
 
 .addNote-container .addNote-wrapper i{
@@ -27,6 +31,13 @@
     transition: 0.3s;
 }
 
+<<<<<<< HEAD
+=======
+.card-title-wrapper i:hover{
+    cursor: pointer;
+}
+
+>>>>>>> 395ee11169364dbc1ede9757a473ff0606ced8e0
 .addNote-container .addNote-wrapper i:hover{
     transition: 0.3s;
     transform: rotate(90deg);
@@ -35,6 +46,7 @@
 
 .card-container{
     display: flex;
+<<<<<<< HEAD
 }
 
 .cards{
@@ -45,3 +57,46 @@
 .action-to-note{
     background-color: #F1F1F1;
 }
+=======
+    flex-wrap: wrap;
+}
+
+.cards{
+    padding: 10px;
+    max-width: 50%;
+}
+
+.action-to-note{
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    padding: 10px 5px;
+    border-radius: 10px;
+    /* display: none; */
+}
+
+.action-to-note div{
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.action-to-note .delete{
+    margin: 3px 0 3px;
+}
+
+.action-to-note .delete:hover{
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.action-to-note .change-cover:hover, .action-to-note .edit:hover{
+    transition: 0.3s;
+    border-radius: 10px;
+    color: white;
+    background-color: #0F3D3E;
+}
+
+.show{display: block;}
+>>>>>>> 395ee11169364dbc1ede9757a473ff0606ced8e0
