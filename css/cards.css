@@ -12,7 +12,10 @@
 
 .card-title-wrapper i{
     color: #0F3D3E;
+<<<<<<< HEAD
+=======
     /* font-size: 20px; */
+>>>>>>> 395ee11169364dbc1ede9757a473ff0606ced8e0
 }
 
 .addNote-container .addNote-wrapper i{
@@ -28,10 +31,13 @@
     transition: 0.3s;
 }
 
+<<<<<<< HEAD
+=======
 .card-title-wrapper i:hover{
     cursor: pointer;
 }
 
+>>>>>>> 395ee11169364dbc1ede9757a473ff0606ced8e0
 .addNote-container .addNote-wrapper i:hover{
     transition: 0.3s;
     transform: rotate(90deg);
@@ -40,11 +46,24 @@
 
 .card-container{
     display: flex;
+<<<<<<< HEAD
 }
 
 .cards{
     margin: 10px;
     width: 50%;
+}
+
+.action-to-note{
+    background-color: #F1F1F1;
+}
+=======
+    flex-wrap: wrap;
+}
+
+.cards{
+    padding: 10px;
+    max-width: 50%;
 }
 
 .action-to-note{
@@ -80,3 +99,4 @@
 }
 
 .show{display: block;}
+>>>>>>> 395ee11169364dbc1ede9757a473ff0606ced8e0
