@@ -40,11 +40,12 @@
 
 .card-container{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .cards{
-    margin: 10px;
-    width: 50%;
+    padding: 10px;
+    max-width: 50%;
 }
 
 .action-to-note{
